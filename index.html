@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>ADHD Bingo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="date">2026 · 03/06 · FRI</div>
+      <h1>ADHD Bingo</h1>
+    </div>
+
+    <div class="progress-box">
+      <div class="progress-bar">
+        <div id="progress-inner"></div>
+      </div>
+      <div id="progress-text">0%</div>
+      <div class="tip">完成一项 +4%，连成一线即 100%</div>
+    </div>
+
+    <div id="bingo" class="grid"></div>
+
+    <div class="footer">
+      <button id="line">一连线</button>
+      <button id="random">随机</button>
+      <button id="reset">重置</button>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
