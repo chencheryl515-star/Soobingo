@@ -4,10 +4,12 @@ body {
   background: #f2f2f7;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 
+  /* 让 UI 居中，不再贴边 */
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+
+  min-height: 100vh; /* 让页面高度撑满屏幕 */
 }
 
 .container {
